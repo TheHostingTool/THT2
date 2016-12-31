@@ -4,4 +4,6 @@ TheHostingTool 2.0 is an entirely new version of everyones favorite free billing
 
 
 You can install TheHostingTool using composer:
-`composer create-project thehostingtool/thehostingtool . --stability=beta`
+```
+composer create-project thehostingtool/thehostingtool . --stability=beta
+```
