@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+/**
+ * @author    TheHostingTool Group
+ * @version   2.0.0
+ * @package   thehostingtool/core
+ * @license   MIT
+ */
+define('THT_START', microtime(true));
+
+require 'vendor/autoload.php';
+$server = new TheHostingTool\Console\Server(__DIR__);
+$server->listen();
