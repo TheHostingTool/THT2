@@ -1,0 +1,24 @@
+{
+    "name": "thehostingtool/thehostingtool",
+    "description": "Free billing software designed for post2host web hosts",
+    "type": "project",
+    "keywords": ["billing","hosting","p2h billing"],
+    "homepage": "http://thehostingtool.com",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/thehostingtool/core/issues",
+        "source": "https://github.com/thehostingtool/tht2",
+        "docs": "http://thehostingtool.com/docs"
+    },
+    "require": {
+        "thehostingtool/core": "^0.1.0",
+    },
+    "require-dev": {
+        "franzl/studio": "^0.11.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
