@@ -11,7 +11,7 @@
         "docs": "http://thehostingtool.com/docs"
     },
     "require": {
-        "thehostingtool/core": "^0.1.0",
+        "thehostingtool/core": "^0.1.0"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"
