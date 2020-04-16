@@ -1,10 +1,10 @@
-.DS_Store
-Thumbs.db
-.vagrant
-config.php
-.idea
-vendor
-server
-core
-studio.json
-composer.lock
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
