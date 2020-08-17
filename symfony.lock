@@ -265,6 +265,12 @@
     "symfony/yaml": {
         "version": "v5.0.7"
     },
+    "thehostingtool/core": {
+        "version": "dev-master"
+    },
+    "tightenco/collect": {
+        "version": "v7.9.2"
+    },
     "twig/extra-bundle": {
         "version": "v3.0.3"
     },
@@ -273,5 +279,11 @@
     },
     "webimpress/safe-writer": {
         "version": "2.0.1"
+    },
+    "webmozart/assert": {
+        "version": "1.8.0"
+    },
+    "webmozart/path-util": {
+        "version": "2.3.0"
     }
 }

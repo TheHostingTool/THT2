@@ -23,7 +23,8 @@
         "symfony/framework-bundle": "^5.0",
         "symfony/orm-pack": "^1.0",
         "symfony/twig-pack": "^1.0",
-        "symfony/yaml": "^5.0"
+        "symfony/yaml": "^5.0",
+        "thehostingtool/core": "dev-master"
     },
     "conflict": {
         "symfony/symfony": "*"
@@ -34,6 +35,12 @@
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../tht-core"
+        }
+    ],
     "config": {
         "preferred-install": {
             "thehostingtool/*": "dist"
